@@ -1,68 +1,116 @@
 # SSE+ 0003 — Introduction to Programming with Python and R
 
-**Complete student-facing GitHub Pages course | Version 0.8 | Units 1–8 available**
+**NM-AIST | Samia Scholarship Extended (SSE+) Boot Camp**  
+**Beginner programming course | Eight learning units | Self-study and classroom resources**
 
-This is a complete replacement package for Version 0.7. It preserves the existing Units 1–7, their original slide decks and downloadable teaching files. It adds a full Unit 8 capstone with notes, an editable presentation, activities, resource files and a final independent assessment. The course overview retains its **permanent** buttons: **Browse all units**, **How to study**, **Submit assignments**. All eight units are now marked **Available**.
+## About the course
 
-## Unit 8 — Mini-project and presentation
+*Introduction to Programming with Python and R* introduces fundamental programming and problem-solving skills through everyday examples. The course begins with Python, where learners practise writing instructions, performing calculations, making decisions, repeating operations and organising code. It then introduces R for simple data handling, summaries and visualisation. A final mini-project brings together concepts from both languages.
 
-**Campus Week Insights** uses five fictional weekdays of spending in TZS and study hours. Students develop a simple Python analysis and an equivalent base-R analysis, compare output, test different cases and explain the results. The independent task is purposely beginner-friendly: no extra R packages, online data, APIs or graphical application are needed.
+The learning materials are designed for beginners, including students with little or no previous programming experience. Examples use familiar scenarios such as transport costs, personal budgets, study time and small datasets. Monetary examples use Tanzanian shillings (TZS).
 
-- **27 comprehensive notes sections:** project scoping, one shared dataset, problem–algorithm–implementation–test–communication workflow, meaningful Python functions, R data frame, base-R bar chart, consistency checking, validation and limitations.
-- **46 self-contained browser slides** and **46-slide editable PowerPoint**: `downloads/SSE_Unit_8_Slides.pptx`.
-- Interactive *six-stage workflow tracer* with colour changes, selectable test scenarios, side-by-side Python/R mathematical comparison, expense bars and five-slide presentation planner. **These browser tools use JavaScript demonstrations and do not execute or test arbitrary Python/R files.**
-- **24 explained review questions**, glossary, personal Unit 8 checklist and practical guided exercises.
-- **Activity U8 (20 raw marks):** Campus Week Insights in Python and R, five required tests, comparison table, labelled chart, short report and five-slide presentation. Task requirements and marking criteria are provided on the Activity U8 page.
+The website provides explanations, presentations, guided exercises, interactive illustrations, review questions and independent activities. It can support instructor-led sessions as well as individual revision.
 
-### Student resources included
+## Learning outcomes
 
-- `downloads/u8_sample_week.csv` — shared five-day dataset.
-- `downloads/u8_python_guided.py` — runnable *guided* three-day example, separate from independent project.
-- `downloads/u8_r_guided.R` — base-R guided three-day example and chart output.
-- `downloads/u8_campus_project_starter.py` — incomplete Python assignment scaffold; the TODOs must be filled in.
-- `downloads/u8_campus_project_starter.R` — incomplete R assignment scaffold; the TODOs must be filled in.
-- `downloads/U8_test_report_template.csv` — five specified cases with independently established expected outcomes and blank actual-result fields.
-- `downloads/U8_submission_notes.txt` — problem description, implementation, comparison, testing and assistance declaration template.
-- `downloads/SSE_Unit_8_Student_Presentation_Template.pptx` — editable five-slide outline for the student's own demonstration.
+By completing the course and its activities, learners should be able to:
 
-The new Unit 8 presentation (`SSE_Unit_8_Slides.pptx`) is a full teaching/revision deck; the student presentation template is a **different** file for students to complete with their own work.
+1. Explain basic programming concepts and express simple solutions as algorithms.
+2. Write Python programs using variables, input, arithmetic, decisions and loops.
+3. Organise data in lists and write reusable Python functions.
+4. Identify common programming errors and evaluate programs with meaningful test cases.
+5. Use introductory R features to manage data, calculate summaries and create simple charts.
+6. Complete, test, document and present a small project using both Python and R.
 
-## Assignment submission
+## Course units
 
-All Activity U1–U8 pages and the permanent submission page link to the user's official form:
+| Unit | Title | Main topics |
+| --- | --- | --- |
+| **1** | Programming Foundations | Problems, algorithms, inputs, outputs, variables and a first Python program |
+| **2** | Values and Calculations | Data types, arithmetic, keyboard input, type conversion and formatted results |
+| **3** | Making Decisions in Python | Comparisons, Boolean logic, `if`, `elif`, `else` and boundary cases |
+| **4** | Repeating Actions in Python | `for`, `while`, `range()`, counters, accumulators and input validation |
+| **5** | Lists and Functions in Python | Lists, indexing, list operations, parameters and return values |
+| **6** | Testing and Debugging in Python | Error types, tracebacks, tracing, test cases, assertions and corrections |
+| **7** | Introduction to R Programming | R syntax, vectors, one-based indexing, data frames, summaries and base-R plots |
+| **8** | Mini-Project and Presentation | A shared dataset, Python and R analysis, testing, documentation and presentation |
 
-https://forms.gle/AWESk9LvvpUV2CEX6
+Each unit includes student notes, browser slides, a downloadable PowerPoint, practical activities, review questions and an independent assignment. Additional starter files and templates are provided where relevant.
 
-This is an external link and requires internet access. Follow its current permissions, upload formats and instructions. Submission deadlines remain **To be announced**. The website itself does not accept uploads, issue submission receipts or assess student work.
+## How to study
 
-## Publish to the same GitHub Pages repository
+A useful learning sequence for each unit is:
 
-1. Extract the ZIP file.
-2. Copy the **contents of the ZIP**, not an enclosing directory, into the folder deployed by the existing GitHub Pages repository.
-3. Replace matching `index.html`, `assets/`, `downloads/` and `README.md` files, preserving the folder layout. Commit and push to the same publishing branch.
-4. Visit the published site and verify **Browse all units**, Unit 8 notes/slides/lab/review/activity/checklist/glossary and the assignment submission link. Check an existing unit as well.
+1. **Read the notes** to understand the concepts, terminology and worked examples.
+2. **Study the slides** in the website or download the PowerPoint for revision.
+3. **Try the guided exercises** and run the actual `.py` or `.R` files using the appropriate programming environment.
+4. **Answer the review questions** and compare responses with the explanations.
+5. **Complete the independent activity**, test the result and prepare the required evidence.
+6. **Submit the activity** through the official course submission form, following its current instructions.
 
-The ZIP is a local artifact and does **not** modify the live GitHub repository.
+A **Browse all units** link on the website provides access to every unit. The **How to study** and **Submit assignments** sections offer course-wide guidance.
 
-## Offline use and programmes
+### Assignment submission
 
-Notes, browser slides, interactive illustrations and the downloadable source/starter files work from an extracted local website. The official Google Form needs the internet. Python code requires an installed Python interpreter; R scripts require an installed R interpreter. RStudio is optional. The site itself does not run code from `.py` or `.R` uploads.
+**Official assignment form:** https://forms.gle/AWESk9LvvpUV2CEX6
 
-Progress checklists are stored only in the current browser and are not grades, official completion or Google Form submission confirmations. The teaching dataset is fictional; never publish confidential student spending records in a public repository.
+The website links to this external form but does not receive assignment files or confirm submissions itself. Submission requirements, permitted file formats and deadlines should be checked against the form and official course announcements. Where the website displays **To be announced**, no deadline has been specified in the published materials.
 
-## Version 0.8 changes
+Learners should submit their own work, test their programs and disclose assistance from other people, websites or AI tools where requested.
 
-- Updated `index.html` navigation: Unit 8 pages are accessible and labelled Available; the footer now says all 8 units available.
-- Updated `assets/app.js`: Unit 8 routes and card, assignment submission listing, final availability and permanent overview wording. The older generic project page now points to the complete Unit 8 project brief.
-- Updated `assets/course-settings.js`: version `0.8`, Unit 8 deadline placeholder.
-- Updated `assets/styles.css`: styles for capstone learning diagrams, compare board and responsive lab.
-- Added `assets/unit8-content.js`, `assets/unit8-module.js` and new `downloads` listed above.
-- Original Unit 1–7 content/modules and original PowerPoints retained.
+## Getting started
 
-## Verification and limitations
+### View the course website
 
-- Parsed all 8 unit routes and Unit 8 subpages using a JavaScript runtime with simulated browser elements; no route-generation errors.
-- JavaScript syntax checked for all scripts. Checked source assets and the ZIP's file references.
-- Executed the guided Python example successfully and checked the specified test arithmetic.
-- Validated that the new PowerPoint contains 46 editable slides with the updated Unit 8 teaching text.
-- **Visual browser QA was not available in this environment** and **R was not installed**, so the final live GitHub Pages layout and the R guided/independent scripts must be run on a suitable device. The independent starter files intentionally do not run successfully until students complete their TODOs.
+- **Online:** Open the GitHub Pages site associated with this repository (when GitHub Pages has been enabled).
+- **Offline:** Download or clone the repository, keep the folder structure intact, and open `index.html` in a modern web browser.
+
+Core notes, slides and interactive demonstrations are available locally. The Google Form requires an internet connection.
+
+### Run Python and R examples
+
+The website's interactive diagrams are **browser-based teaching demonstrations**. They do not execute arbitrary Python or R code. To run the downloadable programs, use:
+
+- **Python 3** with an appropriate Python editor, IDE or terminal;
+- **R** with an R console or editor; RStudio is optional.
+
+The guided R materials use base R and do not require additional R packages. Independent assignment starters intentionally contain unfinished sections for learners to complete.
+
+## Final project: Campus Week Insights
+
+The Unit 8 project uses a **fictional five-day dataset** of expenditure and study hours. Learners calculate summaries and validate results in Python, reproduce key findings in R, generate a labelled chart and explain their approach in a short presentation. The project includes a shared CSV, language-specific starters, a test-report template and a five-slide presentation template.
+
+This sample information is for teaching and should not be interpreted as actual student financial or study records.
+
+## Repository structure
+
+```text
+.
+├── index.html                 # Course website entry point
+├── assets/
+│   ├── styles.css             # Website styling
+│   ├── app.js                 # Main navigation and content rendering
+│   ├── content.js             # Unit 1 learning content
+│   ├── course-settings.js     # Submission URL and displayed deadlines
+│   ├── unit2-content.js ... unit8-content.js
+│   └── unit2-module.js ... unit8-module.js
+├── downloads/                 # Presentations, code, datasets and templates
+├── .nojekyll                  # GitHub Pages configuration file
+└── README.md                  # This course introduction
+```
+
+## Information for course maintainers
+
+The website is a static site suitable for GitHub Pages; no server-side application or database is required.
+
+- The main entry point is `index.html`. Styles and JavaScript are located in `assets/`.
+- The submission link and displayed assignment deadlines can be configured in `assets/course-settings.js`.
+- Downloadable learning resources are stored in `downloads/`; preserve their paths when updating files.
+- For GitHub Pages deployments from a branch, use the repository's **Settings → Pages** configuration and select the publishing branch and **/(root)** folder when the site files are at the repository root.
+- After changes, check navigation, mobile readability, downloadable files, the official form link and any interactive learning activities.
+
+Progress checklists are saved in the learner's current browser; they are not official grades or confirmation that an assignment was submitted. Public repositories should not contain students' personal records or confidential datasets.
+
+## Questions and support
+
+For course-specific deadlines, assessment requirements or administrative information, use official SSE+ programme and course communication channels. Technical issues with a published site can be reported to its repository maintainer.
