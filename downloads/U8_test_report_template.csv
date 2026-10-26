@@ -1,0 +1,6 @@
+Test_ID,Expenses_TZS,Study_Hours,Allowance_TZS,Expected_Result,Actual_Python,Actual_R,Verdict_Python,Verdict_R,Correction_or_Note
+T01,2000;3000;0;4000;1000,2;1;3;2;2,15000,Total 10000; mean 2000; peak Thu; study 10h; Within budget,,,,,
+T02,0;0;0;0;0,0;0;0;0;0,0,Total 0; mean 0; first peak Mon; study 0h; Exactly on budget,,,,,
+T03,1000;2000;3000;4000;5000,1;1;1;1;1,15000,Total 15000; mean 3000; peak Fri; study 5h; Exactly on budget,,,,,
+T04,5000;6000;7000;3000;1000,2;2;2;2;2,20000,Total 22000; mean 4400; peak Wed; study 10h; Over budget,,,,,
+T05,2000;-100;1000;3000;500,2;1;3;2;2,15000,REJECT negative expense; no summary,,,,,

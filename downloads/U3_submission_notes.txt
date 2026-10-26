@@ -1,0 +1,27 @@
+SSE+ 0003 — Unit 3 · Weekly Budget Adviser
+Student ID: __________________________
+Name: _______________________________
+
+1. Problem description (2–4 sentences)
+
+2. Inputs / processing / outputs
+
+3. Algorithm or clear pseudocode (including validation and three outcomes)
+
+4. Test evidence (copy and complete this table)
+Case | Food | Transport | Days | Allowance | Expected cost and balance / message | Actual cost and balance / message | Match?
+1    | 4000 | 2500      | 5    | 40000     | 32500 / 7500 / Within budget       |                                 |
+2    | 3500 | 2000      | 4    | 20000     | 22000 / -2000 / Over budget        |                                 |
+3    | 2500 | 1500      | 5    | 20000     | 20000 / 0 / Exactly on budget      |                                 |
+4    | 5000 | 3000      | 0    | 10000     | 0 / 10000 / Within budget          |                                 |
+5    | 4000 | 2500      | 8    | 40000     | Invalid values (no ordinary result)|                                 |
+
+5. Explain the meaning of if, elif and else in your program, with one example.
+
+6. Describe how range validation stops the programme from reporting an ordinary budget result for an invalid number of days.
+
+7. Assistance declaration: list any help from people, websites or AI, or write "none".
+
+Save Python code as StudentID_U3.py and this document as StudentID_U3_Notes.txt (or DOCX/PDF).
+Prepare the required evidence, then open the official Google Form from the website and follow its submission instructions.
+Due date: To be announced.

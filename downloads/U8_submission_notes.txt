@@ -1,0 +1,50 @@
+SSE+ 0003 | Unit 8 Project Report & Submission Checklist
+StudentID: __________________   Submission date: __________________
+
+1. PROJECT PROBLEM AND INTENDED USER
+[Describe the five-day campus spending and study-hours question. State the fictional data scope.]
+
+2. INPUTS, PROCESSING AND OUTPUTS
+[Identify day, expense, hours, allowance; show clear pseudocode.]
+
+3. IMPLEMENTATION
+Python script filename: StudentID_U8.py
+R script filename: StudentID_U8.R
+How to run Python: __________________________
+How to run R: _______________________________
+R chart image filename (if saved): __________
+
+4. VERIFIED BASELINE RESULTS AND CROSS-LANGUAGE COMPARISON
+Metric                Expected           Actual Python       Actual R
+Total expenditure     TZS 10000          ____________        ____________
+Daily average         TZS 2000           ____________        ____________
+First highest day     Thu; TZS 4000      ____________        ____________
+Study-hour total      10 hours           ____________        ____________
+Budget result         Within budget      ____________        ____________
+Remaining allowance   TZS 5000           ____________        ____________
+
+5. FIVE TEST CASES
+Complete the supplied U8_test_report_template.csv with actual outputs and PASS/FAIL for BOTH languages. The invalid T05 must cause a clear rejection.
+
+6. SHORT FINDINGS AND LIMITATIONS
+[Discuss the week factually; acknowledge five fictional days do not predict future weeks.]
+
+7. DECLARATION OF ASSISTANCE
+[State any human, internet or AI tool assistance. Write 'none' if appropriate. Explain what you checked yourself.]
+
+8. FIVE-SLIDE PRESENTATION CHECKLIST
+[ ] Problem & purpose
+[ ] Data & algorithm
+[ ] Python & R approach
+[ ] Key results, chart and tests
+[ ] Limitations & lessons
+
+9. BEFORE SUBMISSION
+[ ] Python and R both run from saved scripts
+[ ] Same values in both languages
+[ ] Five documented test cases
+[ ] TZS-labelled bar chart
+[ ] Clear report and five-slide presentation
+[ ] Confirm current allowed file formats in official Google Form
+
+Note: This is a student-facing guide; deadlines and assessment weighting follow institutional announcements.

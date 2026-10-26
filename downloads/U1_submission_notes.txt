@@ -1,0 +1,18 @@
+UNIT 1 SUBMISSION NOTES
+Name:
+Student ID:
+Problem description:
+Inputs:
+Processing:
+Output:
+Algorithm:
+1.
+2.
+3.
+4.
+Tests (price, quantity, expected result, actual result, match or correction):
+1500, 3, 4500,
+2500, 4, 10000,
+2000, 0, 0,
+Explanation of the multiplication statement:
+Assistance used (people, websites or AI, or none):

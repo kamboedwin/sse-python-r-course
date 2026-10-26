@@ -1,0 +1,43 @@
+UNIT 2 — INDEPENDENT ACTIVITY U2 | WEEKLY EXPENDITURE
+Name:
+Student ID:
+
+1. Problem description and intended user:
+
+2. Inputs (with types and units):
+  Food/day:       Type:
+  Transport/day:  Type:
+  Campus days:    Type:
+  Allowance:      Type:
+
+3. Processing and formulas:
+
+4. Outputs (with labels and units):
+
+5. Algorithm (ordered steps independent of Python syntax):
+  1.
+  2.
+  3.
+  4.
+  5.
+
+6. TEST EVIDENCE — Expected vs Actual (cost and balance in TZS)
+Case 1 input: food 4000; travel 2500; days 5; allowance 40000
+  Expected weekly cost 32500, balance 7500
+  Actual weekly cost:           Actual balance:          Match?
+
+Case 2 input: food 3500; travel 2000; days 4; allowance 20000
+  Expected weekly cost 22000, balance -2000
+  Actual weekly cost:           Actual balance:          Match?
+
+Case 3 input: food 5000; travel 3000; days 0; allowance 10000
+  Expected weekly cost 0, balance 10000
+  Actual weekly cost:           Actual balance:          Match?
+
+7. Explain why input() values need int()/float() for calculations:
+
+8. One problem encountered and how you tested or corrected it:
+
+9. Assistance used (people, websites, AI tools, or none):
+
+Submitted Python filename: StudentID_U2.py

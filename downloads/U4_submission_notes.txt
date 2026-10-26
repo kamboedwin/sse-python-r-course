@@ -1,0 +1,46 @@
+NM-AIST SSE+ 0003 — UNIT 4 INDEPENDENT ACTIVITY
+FIVE-DAY EXPENDITURE TRACKER
+
+Student name:
+Student ID:
+Date:
+
+A. Problem explanation (input, processing, output)
+
+B. Algorithm / pseudocode
+   Explain the five-pass for loop, the validation while loop,
+   the counter and the running total.
+
+C. Required testing (run your own completed Python programme)
+
+Test 1 — Allowance 20000; expenses: 2000, 3000, 0, 4000, 1000
+Expected: total 10000.00; average 2000.00; zero days 1; Within budget
+Actual result:
+
+Test 2 — Allowance 0; expenses: 0, 0, 0, 0, 0
+Expected: total 0.00; average 0.00; zero days 5; Exactly on budget
+Actual result:
+
+Test 3 — Allowance 20000; expenses: 5000, 6000, 7000, 3000, 1000
+Expected: total 22000.00; average 4400.00; zero days 0; Over budget
+Actual result:
+
+Test 4 — Allowance 15000; expenses: 1000, 2000, 3000, 4000, 5000
+Expected: total 15000.00; average 3000.00; zero days 0; Exactly on budget
+Actual result:
+
+Test 5 — Allowance 8000; for Day 2 first enter -500 and on retry enter 0.
+Accepted expenses: 2000, 0, 1000, 3000, 0
+Expected: total 6000.00; average 1200.00; zero days 2; Within budget
+Expected: a negative input causes a retry for the same day.
+Actual result including the retry:
+
+D. Explanation of loop termination
+
+E. Assistance declaration (person, book, website or AI tool, if any)
+
+Submission files:
+  StudentID_U4.py
+  Your short notes / test evidence file in TXT, DOCX or PDF
+Official submission link: https://forms.gle/AWESk9LvvpUV2CEX6
+Submission deadline: To be announced (check the official instructions).

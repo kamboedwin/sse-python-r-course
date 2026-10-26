@@ -1,0 +1,74 @@
+SSE+ 0003 — Activity U6: Debugging and Test Evidence
+Student ID:
+Date:
+Programme filename: StudentID_U6.py
+
+A. ORIGINAL FAULT REPORT (at least two reproducible faults)
+Fault 1
+- Input / steps:
+- Expected output:
+- Actual output before correction:
+- Explanation of root cause:
+- Change made:
+- Actual output after correction:
+
+Fault 2
+- Input / steps:
+- Expected output:
+- Actual output before correction:
+- Explanation of root cause:
+- Change made:
+- Actual output after correction:
+
+B. REQUIRED TEST TABLE
+For each test, record TOTAL, AVERAGE, ZERO DAYS and STATUS.
+Mark PASS only if every result matches the independently listed expectation.
+
+T01  Normal below: allowance 20000, expenses [2000, 3000, 0, 4000, 1000]
+Expected: total 10000; average 2000; zeros 1; Within budget
+Actual:
+PASS / FAIL:
+
+T02  All zero: allowance 0, expenses [0, 0, 0, 0, 0]
+Expected: total 0; average 0; zeros 5; Exactly on budget
+Actual:
+PASS / FAIL:
+
+T03  Exact match: allowance 15000, expenses [1000, 2000, 3000, 4000, 5000]
+Expected: total 15000; average 3000; zeros 0; Exactly on budget
+Actual:
+PASS / FAIL:
+
+T04  Above: allowance 20000, expenses [5000, 6000, 7000, 3000, 1000]
+Expected: total 22000; average 4400; zeros 0; Over budget
+Actual:
+PASS / FAIL:
+
+T05  Invalid then valid: allowance 8000
+Attempt second-day amount -500: rejected, same day requested again.
+Then accepted expenses [2000, 0, 1000, 3000, 0].
+Expected: total 6000; average 1200; zeros 2; Within budget
+Actual:
+PASS / FAIL:
+
+C. EXTRA INPUT CHECK
+Attempt to type 'abc'. Expected: rejected with a message; programme
+continues to ask for the same day instead of crashing.
+Actual:
+PASS / FAIL:
+
+D. SUMMARY OF REPAIRS
+- Total loop:
+- Zero count:
+- Average:
+- Budget decision:
+- Input handling:
+- Regression tests after repairs:
+
+E. ASSISTANCE DECLARATION
+List any person, documentation, online source or AI tool that helped,
+and what help was used. Write 'None' if no assistance was used.
+
+Notes: The rubric is published on the Activity U6 page. The personal
+website checklist is not submission evidence. Use the official Google
+Form to submit files according to its current requirements.
