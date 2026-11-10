@@ -26,7 +26,7 @@ By completing the course and its activities, learners should be able to:
 
 | Unit | Title | Main topics |
 | --- | --- | --- |
-| **1** | Programming Foundations | Problems, algorithms, inputs, outputs, variables and a first Python program |
+| **1** | Introduction to Programming and Python | Python uses, paradigms, algorithms, first scripts, good practices and responsible AI assistance |
 | **2** | Values and Calculations | Data types, arithmetic, keyboard input, type conversion and formatted results |
 | **3** | Making Decisions in Python | Comparisons, Boolean logic, `if`, `elif`, `else` and boundary cases |
 | **4** | Repeating Actions in Python | `for`, `while`, `range()`, counters, accumulators and input validation |
@@ -35,14 +35,14 @@ By completing the course and its activities, learners should be able to:
 | **7** | Introduction to R Programming | R syntax, vectors, one-based indexing, data frames, summaries and base-R plots |
 | **8** | Mini-Project and Presentation | A shared dataset, Python and R analysis, testing, documentation and presentation |
 
-Each unit includes student notes, browser slides, a downloadable PowerPoint, practical activities, review questions and an independent assignment. Additional starter files and templates are provided where relevant.
+Each unit includes student notes, embedded PDF presentations, downloadable PDFs and editable PowerPoints, practical activities, review questions and an independent assignment. Additional starter files and templates are provided where relevant.
 
 ## How to study
 
 A useful learning sequence for each unit is:
 
 1. **Read the notes** to understand the concepts, terminology and worked examples.
-2. **Study the slides** in the website or download the PowerPoint for revision.
+2. **Study the slides** in the website or download the PDF or PowerPoint for revision.
 3. **Try the guided exercises** and run the actual `.py` or `.R` files using the appropriate programming environment.
 4. **Answer the review questions** and compare responses with the explanations.
 5. **Complete the independent activity**, test the result and prepare the required evidence.
@@ -94,7 +94,7 @@ This sample information is for teaching and should not be interpreted as actual 
 │   ├── course-settings.js     # Submission URL and displayed deadlines
 │   ├── unit2-content.js ... unit8-content.js
 │   └── unit2-module.js ... unit8-module.js
-├── downloads/                 # Presentations, code, datasets and templates
+├── downloads/                 # PDFs, editable presentations, code, datasets and templates
 ├── .nojekyll                  # GitHub Pages configuration file
 └── README.md                  # This course introduction
 ```
