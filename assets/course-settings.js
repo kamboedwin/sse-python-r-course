@@ -1,5 +1,5 @@
 window.COURSE_SETTINGS = {
-  version: "0.9",
+  version: "1.0",
   submissionUrl: "https://forms.gle/AWESk9LvvpUV2CEX6",
   completionRequestUrl: "",
   unit1DueDate: "To be announced",

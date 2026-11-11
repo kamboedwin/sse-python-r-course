@@ -27,13 +27,13 @@ By completing the course and its activities, learners should be able to:
 | Unit | Title | Main topics |
 | --- | --- | --- |
 | **1** | Introduction to Programming and Python | Python uses, paradigms, algorithms, first scripts, good practices and responsible AI assistance |
-| **2** | Values and Calculations | Data types, arithmetic, keyboard input, type conversion and formatted results |
-| **3** | Making Decisions in Python | Comparisons, Boolean logic, `if`, `elif`, `else` and boundary cases |
-| **4** | Repeating Actions in Python | `for`, `while`, `range()`, counters, accumulators and input validation |
-| **5** | Lists and Functions in Python | Lists, indexing, list operations, parameters and return values |
-| **6** | Testing and Debugging in Python | Error types, tracebacks, tracing, test cases, assertions and corrections |
-| **7** | Introduction to R Programming | R syntax, vectors, one-based indexing, data frames, summaries and base-R plots |
-| **8** | Mini-Project and Presentation | A shared dataset, Python and R analysis, testing, documentation and presentation |
+| **2** | Values and Calculations | Data types, arithmetic, strings, keyboard input, conversion and scientific calculations |
+| **3** | Making Decisions in Python | Comparisons, Boolean logic, `if`, `elif`, `else`, decision design and boundary cases |
+| **4** | Repeating Actions in Python | `for`, `while`, `range()`, nested loops, counters, accumulators and input validation |
+| **5** | Lists and Functions in Python | Collections, lists, references, modular functions, parameters and return values |
+| **6** | Testing and Debugging in Python | Error types, tracebacks, debugger, test cases, assertions and version history |
+| **7** | Introduction to R Programming | R environment, vectors, data structures, dataset inspection, summaries and base-R plots |
+| **8** | Mini-Project and Presentation | Project requirements, shared data, Python/R analysis, testing, documentation and presentation |
 
 Each unit includes student notes, embedded PDF presentations, downloadable PDFs and editable PowerPoints, practical activities, review questions and an independent assignment. Additional starter files and templates are provided where relevant.
 
